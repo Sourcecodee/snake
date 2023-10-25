@@ -1,0 +1,39 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: coral;
+}
+
+.canva{
+    background-color: white;
+}
+
+.counter{
+    margin: 20px;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    background-color: maroon;
+    overflow: hidden;
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+h2{
+    text-align: center;
+}
